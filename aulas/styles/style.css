@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div.container{
+background-color: chocolate;
+display: flex;
+padding: 1.5px;
+flex-flow:row wrap; 
+
+
+}
+
+
+div.item {
+background-color: cornflowerblue;
+border: 1px solid black;
+text-align: center;
+flex: auto;
+margin: 1.5px;
+
+
+}
