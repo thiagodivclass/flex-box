@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+div.container{
+background-color: chocolate;
+height: 100px;
+display: flex;
+padding: 1.5px;
+flex-flow:row wrap; /*Linha e quebra*/
+justify-content: space-evenly; /*Alinha no eixo "main" princial*/
+align-items: baseline; /*Alinha no eixo "cross" transversal*/
+
+}
+
+
+div.item {
+background-color: cornflowerblue;
+border: 1px solid black;
+text-align: center;
+/* flex: auto; */       /*espaçamento */
+margin: 1.5px;
+
+
+}
