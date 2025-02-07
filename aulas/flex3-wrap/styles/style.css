@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+div.container {
+    background-color: darkgrey;
+    height: 500px;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+
+}
+
+div.item {
+background-color: aliceblue;
+height: 50px;
+width: 50px;
+padding: 5px;
+text-align: center;
+border: 1px solid black;
+flex-basis: 80px;
+}
+
+div.item#a {
+align-self: center;
+flex: 0 0 auto;
+} 
+
+div.item#b {
+    flex-shrink: 0;
+    flex-grow: 0;
+    align-self: flex-end;
+    
+} 
+
+
+div.item#c {
+    flex-shrink: 0;
+    flex-grow: 0;
+    
+}
